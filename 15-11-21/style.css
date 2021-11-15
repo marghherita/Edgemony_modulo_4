@@ -1,0 +1,94 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+hr {
+    border: 0;
+    background-color: #ccc;
+    height: 2px;
+    margin: 20px 0;
+}
+
+#add {
+    padding: 10px;
+    background-color: #fff;
+    border: 1 px solid #aaa;
+    /* border: none; */
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+#add:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: white;
+}
+
+#create label {
+    display: block;
+    width: 300px;
+}
+
+#create input,
+#create textarea {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 4px;
+}
+
+#create input {
+    outline: none;
+    border: 2px solid #999;
+    transition: all 0.6s ease;
+}
+
+#create input:focus {
+    border: 2px solid cadetblue;
+    box-shadow: 0px 0px 10px cadetblue;
+}
+
+#create textarea {
+    resize: vertical;
+}
+
+#create .row {
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.loading {
+    color: #ccc;
+    padding: 15px;
+    border: 1px dashed #aaa;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+/* ANIMATION */
+
+@keyframes pulse {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.4;
+    }
+}
