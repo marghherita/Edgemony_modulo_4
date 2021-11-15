@@ -49,7 +49,7 @@ const Add = () => {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(movie),
-        });
+        })
 
     });
 };

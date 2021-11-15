@@ -8,7 +8,7 @@ const List = (data) => {
 
     const container = document.querySelector('#container');
     render(container, `
-        <p>Elenco schiede film</p>
+        <p>Elenco schede film</p>
         <ul> ${elements}</ul> `);
 };
 
