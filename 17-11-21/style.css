@@ -63,7 +63,7 @@ body {
 }
 
 h2 {
-    font-size: 54px;
+    font-size: 64px;
     font-weight: 800;
     background-color: #000;
     color: #fff;
@@ -84,6 +84,10 @@ h3 {
     font-size: 36px;
     font-weight: 800;
     margin-left: 20px;
+}
+
+p {
+    font-size: 24px;
 }
 
 .enj {
@@ -142,6 +146,10 @@ li a {
     color: white;
 }
 
+li:hover {
+    transform: scale(1.05);
+}
+
 main {
     /* width: 85%; */
     margin: 30px auto;
@@ -161,10 +169,14 @@ footer {
     width: 100%;
     text-align: center;
     bottom: 0;
-    position: fixed;
+    /* position: fixed; */
     background-color: black;
     color: white;
     padding: 30px;
+}
+
+footer p {
+    font-size: 12px;
 }
 
 #add,
