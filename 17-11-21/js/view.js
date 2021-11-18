@@ -10,12 +10,13 @@ const View = (id = 0) => {
             render(
                 container,
                 `<article>
-        <h2>${movie.title}</h2>
-        <p>${movie.year}</p>
+        <h2>${movie.title} </br> ${movie.year} </h2>
+        <div class="vieew">
         <img src="${movie.poster}" />
-        <p>${movie.description}</p>
-        <hr />
-        <a href="#" id="back">Torna alla home</a>
+        <p>${movie.description} </br></br></br> <span class="center-two"><a href="#" id="back">Torna alla home</a></span></p>
+        
+        </div>
+        
       </article>`
             );
         });

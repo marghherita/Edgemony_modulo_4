@@ -3,11 +3,13 @@ import { render, API } from "./utils.js";
 const List = (data) => {
     const elements = data
         .map(
-            (item) => `<li class="film">
-        <a href="#view-${item.id}">${item.title}</a> - ${item.year} </br>
-        <a class="edit" href="#edit-${item.id}">EDIT</a>
-        <button class="delete" id="${item.id}">X</button>
-      </li>`
+            (item) => `
+           <li>
+           <div class= "test"><a href="#view-${item.id}">${item.title}</a> - ${item.year} </br>
+            <a class="edit" href="#edit-${item.id}">EDIT</a>
+            <button class="delete" id="${item.id}">X</button></div></li>
+            
+            `
         )
         .join("");
 

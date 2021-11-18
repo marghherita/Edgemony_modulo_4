@@ -12,6 +12,7 @@ const Edit = (id = 0) => {
             render(
                 container,
                 `<div>
+                <div class="home-one"><a href="#" id="back"> <   Torna alla home</a></div>
           <h3>Modifica una scheda</h3>
           <form id="create">
             <div class="row">
@@ -37,10 +38,9 @@ const Edit = (id = 0) => {
               <textarea id="description" name="description">${movie.description}</textarea>
             </div>
       
-            <button>Aggiorna scheda</button>
+            <button class="btn">Aggiorna scheda</button>
           </form>
-      
-          <a href="#" id="back">Torna alla home</a>
+    
         </div>`
             );
 

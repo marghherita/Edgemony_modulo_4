@@ -7,27 +7,28 @@ const Add = () => {
     render(
         container,
         `<div>
+        <div class="home-one"><a href="#" id="back"> <   Torna alla home</a></div>
     <h3>Aggiungi una nuova scheda</h3>
     <form id="create">
       <div class="row">
         <label for="title">Titolo:</label>
-        <input type="text" id="title" name="title" />
+        <input type="text" id="title" name="title"  />
       </div>
       <div class="row">
         <label for="poster">Poster:</label>
-        <input type="text" id="poster" name="poster" />
+        <input type="text" id="poster" name="poster" placeholder="URL image" />
       </div>
       <div class="row">
         <label for="year">Anno:</label>
-        <input type="number" min="1900" value="${today.getFullYear()}" id="year" name="year" />
+        <input type="number" min="1900" value="${today.getFullYear()}" id="year " name="year" />
       </div>
       <div class="row">
         <label for="description">Descrizione:</label>
-        <textarea id="description" name="description"></textarea>
+        <textarea id="description" name="description" ></textarea>
       </div>
-      <button>Salva scheda</button>
+      <button class="btn">Salva scheda</button>
     </form>
-    <a href="#" id="back">Torna alla home</a>
+  
   </div>`
     );
 
